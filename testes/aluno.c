@@ -13,7 +13,6 @@ int main()
 
     float mediaGeral, soma = 0;
 
-    // Calcula a média das notas de cada aluno em cada disciplina
 
     for (int i = 0; i < NUM_ALUNOS; i++)
     {
@@ -29,7 +28,6 @@ int main()
         mediasAluno[i] = soma / NUM_DISCIPLINAS;
     }
 
-    // Calcula a média geral de cada aluno em todas as disciplinas
 
     for (int i = 0; i < NUM_ALUNOS; i++)
     {
@@ -39,7 +37,6 @@ int main()
 
     mediaGeral = soma / NUM_ALUNOS;
 
-    // Imprime as médias de cada aluno em cada disciplina
 
     for (int i = 0; i < NUM_ALUNOS; i++)
     {
@@ -47,7 +44,6 @@ int main()
         printf("Média do aluno %d: %.2f\n", i + 1, mediasAluno[i]);
     }
 
-    // Imprime a média geral de todos os alunos
 
     printf("Média geral de todos os alunos: %.2f\n", mediaGeral);
 
